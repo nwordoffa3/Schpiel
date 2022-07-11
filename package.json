@@ -1,8 +1,8 @@
 {
   "name": "schpiel",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://nwordoffa3.github.io/Schpiel",
+  "private": true,
+  "homepage": "http://nwordoffa3.github.io/Schpiel",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
