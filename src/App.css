@@ -1,38 +1,129 @@
-.App {
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+ul{
+  text-align: center;
+  padding: 0px 20px;
+  margin: 12px auto;
+  list-style: none;
+  position: fixed;
+  z-index:10;
+  top: 0;
+}
+
+ul, li{
+  display: inline-table;
+}
+
+li{
+  margin: 10px 30px;
+  font-size: 15px;
+  color: #42385d;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+li:hover{
+  background-color: #42385d;
+}
+
+.navbar{
+  background-color: #ffcfda;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ffcfda;
+  z-index: 10;
+  height: 70px;
+  top: 0;
+  overflow: hidden;
+}
+
+#parallax{
+  background-image: url("pinkbackground.jpg");
+  min-height: 100vh;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.transition{
+  height: 200px;
+  background-color: #42385d;
+  width: 100%;
+}
+.intro-text{
+  text-align: center;
+  width: 100%;
+  color: #42385d;
+  padding: 37vh;    
+  height: 100vh;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  background-attachment: initial;
+}
+
+.section{
+  background-color: #ffcfda;
+  min-height: 100vh;
+}
+.question{
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;   
+  color: #42385d;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.form--hidden{
+  display: none;
+}
+.form >*:first-child{
+  margin-top: 0;
+}
+
+.form >*:last-child{
+  margin-top: 0;
+}
+
+.form__message{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form__message--success{
+  color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form__message--error{
+  color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form__input{
+  display: block;
+  outline: none;
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  transition: background 0.2s, border-color 0.2s
 }
 
-.App-link {
-  color: #61dafb;
+.form__input--error--message{
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form__button:active{
+  transform: scale(.98);
 }
