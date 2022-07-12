@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import Login from "../components/Login"
-import Database from "../components/database";
 
 
 function Home(props) {
