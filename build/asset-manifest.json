@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Schpiel/static/css/main.b3829020.css",
+    "main.js": "/Schpiel/static/js/main.2f092652.js",
+    "static/js/787.79eb1366.chunk.js": "/Schpiel/static/js/787.79eb1366.chunk.js",
+    "index.html": "/Schpiel/index.html",
+    "main.b3829020.css.map": "/Schpiel/static/css/main.b3829020.css.map",
+    "main.2f092652.js.map": "/Schpiel/static/js/main.2f092652.js.map",
+    "787.79eb1366.chunk.js.map": "/Schpiel/static/js/787.79eb1366.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3829020.css",
+    "static/js/main.2f092652.js"
+  ]
+}
