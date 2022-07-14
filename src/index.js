@@ -10,7 +10,7 @@ ReactDOM.render(
   <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri={"https://nwordoffa3.github.io/Schpiel/callback"}>
+    redirectUri={window.location.origin}>
     <App />
   </Auth0Provider>,
   document.getElementById('root')
