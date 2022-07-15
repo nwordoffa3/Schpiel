@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Schpiel/static/css/main.527f1b4c.css",
-    "main.js": "/Schpiel/static/js/main.b1b34cf6.js",
+    "main.js": "/Schpiel/static/js/main.d930a2b1.js",
     "index.html": "/Schpiel/index.html",
     "main.527f1b4c.css.map": "/Schpiel/static/css/main.527f1b4c.css.map",
-    "main.b1b34cf6.js.map": "/Schpiel/static/js/main.b1b34cf6.js.map"
+    "main.d930a2b1.js.map": "/Schpiel/static/js/main.d930a2b1.js.map"
   },
   "entrypoints": [
     "static/css/main.527f1b4c.css",
-    "static/js/main.b1b34cf6.js"
+    "static/js/main.d930a2b1.js"
   ]
 }
