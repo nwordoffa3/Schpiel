@@ -28,7 +28,7 @@ function Home(props) {
         </div>
     <div id="parallax">
         <div className="intro-text">
-            texxxt 
+            texxt 
                 <br/>
               here
         </div>
